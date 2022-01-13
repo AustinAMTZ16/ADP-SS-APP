@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Agua de Puebla Móvil</string>
+    <color name="white">#FFFFFF</color>
+    <color name="yelow">#FFCE00</color>
+    <color name="blue">#004B8D</color>
+    <color name="black">#000000</color>
+    <color name="brandSecondary">#4A4A4A</color>
+    <color name="brandYellowLight">#FFF2B9</color>
+    <color name="brandYellow">#FFCE00</color>
+    <color name="brandPrimary">#004B8D</color>
+</resources>

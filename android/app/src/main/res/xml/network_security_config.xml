@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <!-- For React Native Hot-reloading system -->
+        <!-- If you are running on a device insert your computer IP -->
+        <domain includeSubdomains="true">10.0.1.1</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">172.22.213.212</domain>
+        <domain includeSubdomains="true">172.22.216.81</domain>
+        <domain includeSubdomains="true">tesla.indra.es</domain>
+        <domain includeSubdomains="true">ss-node.herokuapp.com</domain>
+        <domain includeSubdomains="true">madppvcmsweb09.indra.es</domain>
+        <domain includeSubdomains="true">madppvcmsweb06.indra.es</domain>
+        <domain includeSubdomains="true">172.22.216.72</domain>
+        <domain includeSubdomains="true">10.6.100.59</domain>
+        <domain includeSubdomains="true">10.6.101.236</domain>
+        
+
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </domain-config>
+
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

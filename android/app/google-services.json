@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "662653545198",
+    "project_id": "adpouc-notifications",
+    "storage_bucket": "adpouc-notifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662653545198:android:4aef7e097655109edca1ff",
+        "android_client_info": {
+          "package_name": "com.aguapuebla.micuentamovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662653545198-44gednv4pnhan2vv191o9h8gk3l5omdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC23sIYpstju8ZusmRAo8ykq8LJaxWaEqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662653545198-44gednv4pnhan2vv191o9h8gk3l5omdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

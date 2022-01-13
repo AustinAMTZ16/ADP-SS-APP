@@ -1,0 +1,23 @@
+import Reactotron from 'reactotron-react-native'
+import Config from 'react-native-config'
+
+
+if(Config.DEV==="true" || 1==1) {
+  Reactotron
+    .configure({
+      name: 'React Native Self Service',
+      host: '192.168.1.49'
+    })
+    .useReactNative()
+    .connect();
+  	Reactotron.clear();
+    Reactotron.log('Hello Reactotron');
+    console = Reactotron;
+}else{
+  //console.log("Development false. Reactotron is not activated " + Config.DEV);
+  console = new Object();
+  console.log = function(){};
+  console.error = function(){};
+  console.warn = function(){};
+}
+

@@ -1,0 +1,4 @@
+registry=https://slmaven.indra.es/nexus/repository/INCMS47_Npm_Repositories/
+always-auth=true
+strict-ssl=false
+_auth="dXNyX0luQ01TOjE1SW5DTVMwMA=="

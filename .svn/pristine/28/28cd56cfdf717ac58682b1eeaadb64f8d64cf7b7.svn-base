@@ -1,0 +1,39 @@
+import {variable} from "../";
+
+export default (variables = variable) => {
+  let badgeTheme = {
+    ".primary": {
+      backgroundColor: variables.btnPrimaryBg
+    },
+    ".warning": {
+      backgroundColor: variables.btnWarningBg
+    },
+    ".info": {
+      backgroundColor: variables.btnInfoBg
+    },
+    ".success": {
+      backgroundColor: variables.btnSuccessBg
+    },
+    ".danger": {
+      backgroundColor: variables.btnDangerBg
+    },
+    "NativeBase.Text": {
+      color: variables.badgeColor,
+      fontSize: variables.fontSizeBase,
+      lineHeight: variables.lineHeight - 1,
+      textAlign: "center",
+      paddingHorizontal: 1
+    },
+    ".normal": {
+      height: variables.fontSizeBase + 2,
+      paddingTop: variables.platform === 'ios' ? 5 : 2
+    },
+    backgroundColor: variables.badgeBg,
+    padding: variables.badgePadding,
+    paddingHorizontal: 6,
+    alignSelf: "flex-start",
+    borderRadius: 13.5,
+    height: 10
+  };
+  return badgeTheme;
+};
